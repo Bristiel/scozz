@@ -272,7 +272,7 @@ class GetFunction
   {
     $view          =  '';
     $get_view_data =  array();
-    $site_title    =  'Shopist';
+    $site_title    =  'Scozz';
     $email         =  'yourEmail@domain.com';
       
     if(isset($this->settingsData['general_settings']['general_options']['site_title']) && $this->settingsData['general_settings']['general_options']['site_title']){
