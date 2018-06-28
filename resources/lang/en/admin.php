@@ -1,7 +1,7 @@
 <?php
 return [
-    'view_online_store'                                               =>  'visit store',
-    'shopist_store'                                                   =>  'Visit Store',
+    'view_online_store'                                               =>  'Ir a la Tienda Scozz',
+    'shopist_store'                                                   =>  'Ir a la Tienda Scozz',
     'profile'                                                         =>  'Profile',
     'sign_out'                                                        =>  'Sign out',
     'dashboard'                                                       =>  'Dashboard',
@@ -244,7 +244,7 @@ return [
     'color_code'                                                      =>  'Color Code',
     'size_name'                                                       =>  'Size Name',
     'attributes_values'                                               =>  'Attributes Values',
-    'shopist'                                                         =>  'Shopist',
+    'shopist'                                                         =>  'Scozz',
     'login'                                                           =>  'Login',
     'sign_in_as_a_user'                                               =>  'Sign in as a user',
     'password'                                                        =>  'Password',

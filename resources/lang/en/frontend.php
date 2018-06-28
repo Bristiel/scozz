@@ -226,7 +226,7 @@ return [
     'user_name'                                                 =>  'User Name',
     'password'                                                  =>  'Password',
     'retype_password'                                           =>  'Retype Password',
-    'frontend_user_account_title'                               =>  'Shopist | My Account',
+    'frontend_user_account_title'                               =>  'Scozz | My Account',
     'frontend_user_login'                                       =>  'User Login',
     'frontend_username_placeholder'                             =>  'Username',
     'register_as_a_new_user'                                    =>  'Register as a new user',
