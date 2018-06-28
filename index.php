@@ -19,7 +19,7 @@
 |
 */
 
-require __DIR__.'/../www/bootstrap/autoload.php';
+require __DIR__.'/../scozz/bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +33,7 @@ require __DIR__.'/../www/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../www/bootstrap/app.php';
+$app = require_once __DIR__.'/../scozz/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
