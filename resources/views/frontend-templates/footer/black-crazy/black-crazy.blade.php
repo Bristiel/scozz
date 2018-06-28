@@ -65,7 +65,7 @@
         <div class="col-md-12 footer-text">
           <div class="text-center">{!! trans('frontend.footer_msg', ['title' => get_site_title()]) !!}</div>
           <div class="text-center">{!! trans('frontend.footer_powered_by') !!} <strong>{!! get_site_title() !!}</strong></div>
-        </div>U2NyaXB0IGRvd25sb2FkZWQgZnJvbSBDT0RFTElTVC5DQw==
+        </div>Diseño por Robertino
       </div>
     </div>
   </div>  
