@@ -369,7 +369,7 @@ header .brands-images:hover{
 }
 
 header ul.all-menu li .selected{
-  border-bottom: 4px solid #1fc0a0;
+  border-bottom: 4px solid #000000;
 }
 
 header .language-list img{
