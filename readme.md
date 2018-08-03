@@ -14,13 +14,15 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 Proyecto Final de Ingeniería para la UAI Rosario
 
-## Documentación 
+## Documentation 
 
 La documentación requerida se encuentra en documentación
 
-## Sistema 
+## System  
 
-Laragon WAMPP
+Laragon WAMPP, PHP 7, Bootsrap, Angular, JS, MySql (PHPmyAdmin).
+
+---------------------------------------------------------------------------------------
 
 ## Official Documentation
 
