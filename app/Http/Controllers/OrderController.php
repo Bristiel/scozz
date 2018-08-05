@@ -5,6 +5,7 @@ use shopist\Http\Controllers\Controller;
 use shopist\Models\Post;
 use shopist\Models\DownloadExtra;
 use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
 
 
 class OrderController extends Controller
@@ -15,14 +16,27 @@ class OrderController extends Controller
    *
    * @param all order or current date order
    * @return array
+
+   
    */
+
+  public $carbonObject;
+    public function __construct(){
+    
+    $this->carbonObject =  new Carbon();
+    
+  }   
   public function getOrderList( $order_track ){
     $order_data = array();
+    $carbonObject = Carbon::now();
     if($order_track == 'all_order'){
       $order_data = Post::where('post_type', 'shop_order')->orderBy('id', 'DESC')->get()->toArray();
     }
     elseif($order_track == 'current_date_order'){
-      $order_data = Post::whereDate('created_at', '=', $this->carbonObject->today()->toDateString())->where('post_type', 'shop_order')->get()->toArray();
+      $order_data = Post::whereDate('created_at', '=', 
+        $this->carbonObject->toDateString())
+      ->where('post_type', 'shop_order')
+      ->get()->toArray();
     }
     
     return $order_data;

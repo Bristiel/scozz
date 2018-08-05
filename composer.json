@@ -10,9 +10,9 @@
         "laravelcollective/html": "5.*",
         "anhskohbo/no-captcha": "2.*",
         "paypal/rest-api-sdk-php": "*",
-        "intervention/image": "dev-master",
         "intervention/image": "2.*",
-        "mailchimp/mailchimp": "~2.0"
+        "mailchimp/mailchimp": "~2.0",
+         "nesbot/carbon": "~1.18"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
