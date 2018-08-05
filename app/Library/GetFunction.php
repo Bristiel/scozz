@@ -273,7 +273,7 @@ class GetFunction
     $view          =  '';
     $get_view_data =  array();
     $site_title    =  'Scozz';
-    $email         =  'yourEmail@domain.com';
+    $email         =  'roberbris@gmail.com';
       
     if(isset($this->settingsData['general_settings']['general_options']['site_title']) && $this->settingsData['general_settings']['general_options']['site_title']){
       $site_title = $this->settingsData['general_settings']['general_options']['site_title'];
@@ -283,7 +283,7 @@ class GetFunction
       $email = $this->settingsData['general_settings']['general_options']['email_address'];
     }
     
-    $get_view_data = get_customer_order_billing_shipping_info( $data['data']['order_id'] );
+   /* $get_view_data = get_customer_order_billing_shipping_info( $data['data']['order_id'] );*/
     $get_view_data['_from_email'] = $email;
     $get_view_data['_site_title'] = $site_title;
       

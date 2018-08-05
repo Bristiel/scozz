@@ -471,7 +471,7 @@ return [
     'successfully_saved_msg'                                          =>  'Content have been successfully saved.',
     'successfully_updated_msg'                                        =>  'Content have been successfully updated.',
     'unique_sku_msg'                                                  =>  'Please change your sku, its unique field',
-    'mail_sent_msg'                                                   =>  'Message successfully sent.',
+    'mail_sent_msg'                                                   =>  'Mensaje enviado correctamente!',
     'cache_cleared'                                                   =>  'Cache successfully cleared.',
     'admin_dashboard'                                                 =>  'Admin Dashboard',
     'do_not_sufficient_permission'                                    =>  'Do not have sufficient permission',
