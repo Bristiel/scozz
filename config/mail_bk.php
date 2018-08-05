@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER'),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
+    'host' => env('MAIL_HOST'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 2525),
+    'port' => env('MAIL_PORT'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => 'hello@example.com',
-        'name' => 'Example',
+        'address' => 'megatlon-rrhh@gmail.com',
+        'name' => 'Scozz',
     ],
 
     /*
@@ -71,9 +71,9 @@ return [
     |
     */
 
-    /*'encryption' => env('MAIL_ENCRYPTION', 'tsl'),
+    'encryption' => env('MAIL_ENCRYPTION'),
 
-    
+    /*
     |--------------------------------------------------------------------------
     | SMTP Server Username
     |--------------------------------------------------------------------------
@@ -83,21 +83,9 @@ return [
     | connection. You may also set the "password" value below this one.
     |
     */
-
-    'username' => env('MAIL_USERNAME','bf2555395e283d'),
-
-    /*
-    |--------------------------------------------------------------------------
-    | SMTP Server Password
-    |--------------------------------------------------------------------------
-    |
-    | Here you may set the password required by your SMTP server to send out
-    | messages from your application. This will be given to the server on
-    | connection so that the application will be able to send messages.
-    |
-    */
-
-    'password' => env('MAIL_PASSWORD','09be3215bc0771'),
+    'username' => env('MAIL_USERNAME'),
+ 
+    'password' => env('MAIL_PASSWORD'),
 
     /*
     |--------------------------------------------------------------------------
