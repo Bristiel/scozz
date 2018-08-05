@@ -315,7 +315,7 @@ return [
     'cat_post_label'                                            =>  'Categoría',
     'blog_details_page_label'                                   =>  'Detalle del Blog',
     'brand_details_page_label'                                  =>  'Detalle del proveedor',
-    'our_brand_label'                                           =>  'Nosotros',
+    'our_brand_label'                                           =>  'Nuestros Proveedores',
     'product_categories_label'                                  =>  'Categoría del producto',
     'category_label_single'                                     =>  'Categoría',
     'popular_tags_label'                                        =>  'Tags Populares ',
